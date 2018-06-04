@@ -9,7 +9,8 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <!--<property name="hibernate.connection.username"></property>-->
         <!--<property name="hibernate.connection.password"></property>-->
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost/newsdb</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-235-252-23.compute-1.amazonaws.com:5432/d7s77bmnp0qdr6?user=dyunrwuimmlufc&amp;password=d4670cfda55817e526047483ea6a92aef3b853cc1da8462f95a0373eacbfc1ce
+        </property>
         <property name="connection_pool_size">1</property>
         <property name="hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
