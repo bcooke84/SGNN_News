@@ -29,6 +29,11 @@ public class MainController {
         ArticleController articleController = new ArticleController();
         AdminController adminController = new AdminController();
 
+        get("/", (req, res) -> {
+            res.redirect("/news");
+            return null;
+        });
+
         get("/news", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
             List<Article> articles = DBHelper.orderByDateCreatedNewestFirst();
