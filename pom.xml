@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.codeclan.example</groupId>
-    <artifactId>sgnn-news-bc</artifactId>
+    <artifactId>sgnn-news</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -49,7 +49,7 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Use your own application name -->
-                    <appName>sgnn-news-bc</appName>
+                    <appName>sgnn-news</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
                         <!-- You might have to remove the ./ in front   -->
