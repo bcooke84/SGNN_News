@@ -28,3 +28,7 @@ a.search-category-link {
   font-weight: bold;
   margin: 0;
 }
+
+button#search-bar-button {
+  cursor: pointer;
+}

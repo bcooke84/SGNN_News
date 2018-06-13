@@ -1,6 +1,5 @@
 package db;
 
-import com.sun.tools.corba.se.idl.constExpr.Not;
 import models.Article;
 import models.CategoryType;
 import models.Journalist;

@@ -104,6 +104,7 @@ public class DBHelper {
         try {
             Criteria cr = session.createCriteria(Article.class);
             cr.add(Restrictions.eq("journalist", journalist));
+            cr.addOrder(Order.desc("dateCreated"));
             articles = cr.list();
         } catch (HibernateException e) {
             e.printStackTrace();
