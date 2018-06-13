@@ -9,7 +9,7 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <!--<property name="hibernate.connection.username"></property>-->
         <!--<property name="hibernate.connection.password"></property>-->
-        <property name="hibernate.connection.url">jdbc:postgresql://ec2-23-23-226-190.compute-1.amazonaws.com:5432/d4kgq39ar3oc1c?sslmode=require&amp;user=bleutbrjrjhmnh&amp;password=988fdd62e9823e580fba28a780cb11ff466448349b6872dfd7cc89aad43b8f62</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-235-206-118.compute-1.amazonaws.com:5432/d6uvk77pfqdnhn?sslmode=require&amp;user=oetbcufnqiznou&amp;password=2c04e9c0fab1ab1bec3f64925597a2f8a56d2a3f6a1fa93210ad7aefb9204dfc</property>
         <property name="connection_pool_size">1</property>
         <property name="hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
